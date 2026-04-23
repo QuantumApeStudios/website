@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Quantum Ape Studios — we make games and art." />
+  <title>Quantum Ape Studios</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Open Graph / social share previews -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Quantum Ape Studios" />
+  <meta property="og:title" content="Quantum Ape Studios" />
+  <meta property="og:description" content="Quantum Ape Studios — we make games and art." />
+  <meta property="og:url" content="https://quantumapestudios.com/" />
+  <!-- TODO: create a 1200x630 PNG at /assets/og-image.png for nicer social link previews -->
+  <meta property="og:image" content="https://quantumapestudios.com/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Quantum Ape Studios" />
+  <meta name="twitter:description" content="Quantum Ape Studios — we make games and art." />
+  <meta name="twitter:image" content="https://quantumapestudios.com/assets/og-image.png" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="mark" aria-hidden="true"></div>
+        <h1>Quantum Ape Studios</h1>
+      </div>
+
+      <nav class="toplinks" aria-label="Social links">
+        <!-- Replace with real links -->
+        <a class="chip" href="#" rel="me">X</a>
+        <a class="chip" href="#" rel="me">YouTube</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Intro">
+        <div class="panel">
+          <h2>We make games and art.</h2>
+          <p class="tagline">
+            Quantum Ape Studios is a small indie studio focused on playful worlds, satisfying mechanics,
+            and art that feels alive.
+          </p>
+
+          <div class="cta" aria-label="Primary actions">
+            <!-- Replace hrefs with real links -->
+            <a class="btn primary" href="#" target="_blank" rel="noopener">Join Discord</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">Steam</a>
+            <a class="btn" href="mailto:contact@quantumapestudios.com">Email</a>
+          </div>
+        </div>
+
+        <div class="side">
+          <div class="panel mini">
+            <h3>Status</h3>
+            <p>In development. More coming soon.</p>
+          </div>
+          <div class="panel mini">
+            <h3>Contact</h3>
+            <p>
+              For business or press, email
+              <a class="link" href="mailto:contact@quantumapestudios.com">contact@quantumapestudios.com</a>.
+              For community + support, Discord is best.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Mailing list">
+        <div class="panel" style="display: flex; gap: 14px; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+          <div style="min-width: 260px; flex: 1;">
+            <h3 style="margin: 0 0 4px; font-size: 16px;">Get the devlog</h3>
+            <p style="margin: 0; color: var(--muted); font-size: 14px; line-height: 1.5;">
+              Occasional updates from the studio — in-progress shots, launches, and postmortems.
+            </p>
+          </div>
+          <!-- TODO: replace quantumapestudios with your Buttondown username once account is created at buttondown.com -->
+          <form action="https://buttondown.com/api/emails/embed-subscribe/quantumapestudios"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.com/quantumapestudios', 'popupwindow')"
+                style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <input type="email" name="email" required placeholder="you@example.com"
+                   style="padding: 11px 14px; border-radius: 12px; background: rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.16); color: var(--text); font-size: 14px; min-width: 220px; font-family: inherit;" />
+            <button type="submit" class="btn primary" style="cursor: pointer; border: 1px solid rgba(255,255,255,0.18); font-family: inherit;">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" aria-label="In development">
+        <h3>In Development</h3>
+
+        <div class="grid fade-in">
+          <a class="card" href="projects/light-compass.html" aria-label="Light Compass project page">
+            <span class="card-arrow" aria-hidden="true"></span>
+
+            <div class="card-media">
+              <img src="assets/projects/light-compass.png" alt="Light Compass thumbnail" loading="lazy" />
+            </div>
+
+            <span class="badge">Project</span>
+            <h4 class="title">Light Compass</h4>
+            <p class="desc">A developing piece from the Quantum Ape world — details soon.</p>
+          </a>
+
+          <a class="card" href="projects/froggy.html" aria-label="Froggy project page">
+            <span class="card-arrow" aria-hidden="true"></span>
+
+            <div class="card-media">
+              <img src="assets/projects/froggy.png" alt="Froggy thumbnail" loading="lazy" />
+            </div>
+
+            <span class="badge">Project</span>
+            <h4 class="title">Froggy</h4>
+            <p class="desc">A developing piece from the Quantum Ape world — details soon.</p>
+          </a>
+
+          <a class="card" href="projects/xcraft.html" aria-label="xcraft project page">
+            <span class="card-arrow" aria-hidden="true"></span>
+
+            <div class="card-media">
+              <img src="assets/projects/xcraft.png" alt="xcraft thumbnail" loading="lazy" />
+            </div>
+
+            <span class="badge">Project</span>
+            <h4 class="title">xcraft</h4>
+            <p class="desc">A developing piece from the Quantum Ape world — details soon.</p>
+          </a>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="y"></span> Quantum Ape Studios. All rights reserved.</div>
+      <div class="footlinks">
+        <!-- Replace with real links -->
+        <a class="link" href="#">X</a>
+        <a class="link" href="#">YouTube</a>
+        <a class="link" href="mailto:contact@quantumapestudios.com">Email</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
